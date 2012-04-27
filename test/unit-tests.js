@@ -4,10 +4,9 @@ QUnit.config.autostart = false;
 var query = location.href.split('?')[1],
     parts = query && query.split(query.indexOf('&amp;') !== -1 ? '&amp;' : '&'),
     src = [
-      "_math"
+      "_math"  // TD: What is this supposed to be?
     ],
     tests = [
-      "test/deploy-to-server"
     ],
     name, value, builtMath;
 
